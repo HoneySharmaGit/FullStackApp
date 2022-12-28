@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add movie Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        background-image: url("movie.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+    .btn-primary {
+        background-color: blue;
+        width: 372px;
+        font-size: 16px;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0px;
+        height: 20px;
+        width: 100%;
+        background-color: grey;
+    }
+
+    div.main {
+        border: solid 1px grey;
+        border-radius: 5px;
+        margin: 70px;
+        height: 410px;
+        width: 1035px;
+        background-color: #f0f0eb;
+        padding: 1.7%;
+        box-shadow: 10px 10px 10px -9px black;
+    }
+</style>
+
+<body>
+    <center>
+        <form action="am" method="post">
+            <div class="main">
+                <table>
+                    <h4>[Add Movie Here]</h4>
+                    <tr>
+                        <td><label for="tc"><h1>tconst:</h1></label></td>
+                        <td><input class="form-control" type="text" name="tc" required></td>
+                        <td><label for="tt"><h1> &nbsp &nbsp titleType:</h1></label></td>
+                        <td><input class="form-control" type="text" name="tt" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pt"><h1>primaryTitle:</h1></label></td>
+                        <td><input class="form-control" type="text" name="pt" required></td>
+                        <td><label for="rtm"><h1> &nbsp &nbsp runtimeMinutes:</h1></label></td>
+                        <td><input class="form-control" type="number" name="rtm" required></td>
+                    </tr>
+                    <tr>
+                    </tr>
+                </table>
+                <table>
+                    <td><label for="gn"><h1>genre:</h1></label></td>
+                    <td><input class="form-control" type="text" name="gn" required></td>
+                    <tr>
+                    </tr>
+                </table><br>
+                <td><button class="btn btn-primary" type="submit">Add Movie</button></td>
+                <br><br>
+                <a href="homepage.html" style="text-decoration:none">Homepage</a> &nbsp &nbsp <a href="TopTenMovies.html" style="text-decoration:none">top_10_movies</a>
+            </div>
+        </form>
+        <div class="footer">
+            <p>&copycopyright-2022 all right reserved.</p>
+        </div>
+    </center>
+</body>
+
+</html>
