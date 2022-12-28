@@ -1,0 +1,25 @@
+--Welcome to full fledge Application--
+
+Programming languages used: Advance java, SQL
+Frontend language: HTML, CSS
+Persistence technology: JDBC
+Database used: mysql
+Server used: Apache Tomcat server
+IDE used: eclipse
+
+[STEPS for using the app.]
+
+**insert the data in database using SQL queries first**
+
+step 1: when you run the dynamic web project on apache tomcat server. 'homepage.html' would appear.
+there you have three options available. (top 10 movies, Add movie, movies rating).
+
+step 2: when you click on 'top 10 movies' button, it will lead you to 'TopTenMovies.java' servlet page, using ResultSet
+interface. we will fetch the top 10 records based on runtimeMinutes from database using SQL query.
+
+step 3: when you click on 'Add movie' button, it will lead you to 'AddMovie.html' page, where you will see form
+by entering required details, you will be able to add the data into the database. on successful adding the data
+it will show 'success'.
+
+step 4: when you click on 'movies rating' button, it will lead you to 'MoviesRating.java' servlet page, using
+ResultSet interface. we will fetch all the record whose ratings>6.0 using SQL query.
